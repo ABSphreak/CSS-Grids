@@ -2,7 +2,19 @@
 
 body {
   color: #fff;
-  background-image: linear-gradient(to right, #c04848, #480048);
+  background: #00416a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #00416a,
+    #799f0c,
+    #ffe000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #00416a,
+    #799f0c,
+    #ffe000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   margin: 0%;
   margin-bottom: 7%;
   width: 100%;
@@ -28,7 +40,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  background-image: linear-gradient(45deg, #3d7eaa, #ffe47a);
+  background-image: linear-gradient(45deg, #b92b27, #1565c0);
   background-clip: text;
   color: transparent;
   -webkit-background-clip: text;
